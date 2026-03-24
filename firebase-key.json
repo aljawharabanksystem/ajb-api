@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "al-jawhara-bank",
+  "private_key_id": "6ed9df43fdec7254aa5a19c2c1d2736740532002",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDaMoGtNBOTI2je\nyj5uMm4ya0XIZfGgqWULUiJ0lmDQaIkp//txX/AkGA/kl7fkp/HA7B828hTQR/k9\n6Xst+1OpSx9SEuyPgtn/XQcoLMTc/4KBvlCE8vLGS7d/b3rIXiFlBA3o4gNaofqv\nBORzvI8utsoC9Dnp7rapn+lj6mrkRgieMwhSuHdADRB5FgsdJO8af9ToUNaYaACB\n58jHHJJ7NNZiDzH2c402diMf2/A+7FhtXfr6pS36/EGtozDd7d8LscOab2Z3wXpu\nYmgWoPOVrp+a2WTlgXrQBUeeHKSBhqCMma707JjhiNr9pJeGWWc8rSQXMIdIU/JG\n1BtsIGxvAgMBAAECggEAXk8/QoREQ7Al50nmEw5EGBHKrzP07Lra3DpLfzXyMZJF\nWvx0C0xqyMcHs4eqKbA3a2oDkeWvfljlj0+H+NdtETrRllFsoxjtLZVhfwleq6Da\noUaHmfdCXNgkP3YJTWp2J6nJc1OhHH7vkc9dCPNCte+2v/EcyRJvLEDciV2shu47\n+8wefcpwB/if73mt/FRndmCucX92YRXeurPyY849OAo23jvFwMwoZmd1UFy+nEp+\nx4olgtHheDU6VBv254A0tTkEoCsW31e6ZNH84Mt+GNE8+4ee2Ea8lSikwDHdVZ++\nIk63yr37e7nT/I/q3JICesRxdvO60rR3/fC55mBdRQKBgQDwXG2PLk6G58Qjb5bF\nMwmY/P6A6ql61L0sKP0G5UoLunZi4xywHcjI8n3koFTJKHjFusisA24NqKWhiAzy\nG2IT/dvSAGqXpG4IlcRF6ybFYb8ybX91BxQpoCz8RcFxecJBOnuDlnC+EQkD31U9\n6RTWPJIfo5Ln/JyS/n/BWF2ktQKBgQDoZOh8fc8C08tJrekNdRFmzOc2suIP/mP7\nXIfJgek4IP5fwQYE7NyyaVKnLktIwIEOanAQh9V/D4gWW8OPFdftcBEF6WNxhfI5\n+d9GF1tDpogrrh7utV55b6yuJz7d2QUh7uta9fVbZdKfJCrH1eE2ZbEkK2ngLk9r\n4Ig6eONHEwKBgQCQoGzj/I8PqaFhWSG1YrJhtclFtO1plVyGl9s4LPtS902IzvNS\nHXnVP+P0j2y05X9WKr/YkO/FlDalbYGspEFtmhCM2edJe40h6UwCbi4UEm7DXxOU\nTUAak+C9oxN0vjjemtv7H6iTFRkBlX5rFDaPej7KfthEcsGbyTsCEbO3CQKBgQC/\nYKocKzbY6zWT/YXYsTmdYMxfvTxxU1te2rpv9W3r7S/OBxU/5RdyTU3lozgYN3+Q\nMZML6fClbFLzpqoLIT/qpsk+Bw7/pADwQZffDsj3kyK8Ze3PQskEVDTuTh91bozN\nfwWOqNJfbCDhMVWRr86Bj4krch0Eot6Axi0pifgQxQKBgQCxoAfebR+6e3MbfN/J\nhizBsaeAOf1ByeMlTV62hbanGJu5dvythHLIqitJaS7lAs7Q4eZJVrNNPcCfUP7r\nFdl01UWiYjHzjt+qEjnv0Siwr08iWgE57JS+e2xucn+ZzYn1861rDxu5Y88s3Ix9\nLorOkSdME2HFzSzMH9JlKmur4Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@al-jawhara-bank.iam.gserviceaccount.com",
+  "client_id": "108740219167135564070",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40al-jawhara-bank.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
