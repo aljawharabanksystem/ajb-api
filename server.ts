@@ -1,5 +1,8 @@
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
-import { initializeApp, cert } from "npm:firebase-admin@11.11.0";
+
+// استيراد Firebase Admin SDK بطريقة Deno
+import { initializeApp } from "https://esm.sh/firebase-admin@11.11.0?deno-std=0.177.0";
+import { getFirestore } from "https://esm.sh/firebase-admin@11.11.0/firestore?deno-std=0.177.0";
 
 const serviceAccount = {
   "type": "service_account",
@@ -41,11 +44,21 @@ LorOkSdME2HFzSzMH9JlKmur4Q==
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40al-jawhara-bank.iam.gserviceaccount.com"
 };
 
-initializeApp({ credential: cert(serviceAccount) });
-import { getFirestore } from "npm:firebase-admin/firestore";
-const db = getFirestore();
+// تهيئة Firebase
+const app = initializeApp({
+  credential: {
+    getAccessToken: () => Promise.resolve({
+      access_token: "mock",
+      expires_in: 3600
+    })
+  }
+});
 
-const app = new Application();
+// استخدام Firestore
+const db = getFirestore(app);
+
+// تشغيل الخادم
+const server = new Application();
 const router = new Router();
 
 router.get("/reservations/:service", async (ctx) => {
@@ -78,7 +91,7 @@ router.get("/", (ctx) => {
   ctx.response.body = "AJB API Running";
 });
 
-app.use(router.routes());
-app.use(router.allowedMethods());
+server.use(router.routes());
+server.use(router.allowedMethods());
 
-await app.listen({ port: 8000 });
+await server.listen({ port: 8000 });
